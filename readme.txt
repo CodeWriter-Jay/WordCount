@@ -1,1 +1,1 @@
-This file is created for learning to use GitHub.
+此仓库用于个人学习课程“软件工程原理与方法”。
