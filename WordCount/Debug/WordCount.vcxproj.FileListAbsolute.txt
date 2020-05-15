@@ -1,0 +1,2 @@
+D:\WorkSpace\MyGit\WordCount\Debug\WordCount.exe
+D:\WorkSpace\MyGit\WordCount\Debug\WordCount.pdb
