@@ -3,6 +3,16 @@
 
 int main(int args, char* argv[])
 {
+	if (args < 3)
+	{
+		printf("传入参数不够！请在命令行下执行本程序或重试！传参示例\"WordCount.exe -c test.txt\"");
+		return 0;
+	}
+	else if (args > 3)
+	{
+		printf("传入参数过多！请重试！传参示例\"WordCount.exe -c test.txt\"");
+		return 0;
+	}
 	char path[100] = "test.txt";
 	FILE* fp;
 	errno_t err;
