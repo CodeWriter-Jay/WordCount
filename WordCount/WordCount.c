@@ -13,7 +13,7 @@ int main(int args, char* argv[])
 		printf("传入参数过多！请重试！传参示例\"WordCount.exe -c test.txt\"");
 		return 0;
 	}
-	char path[100] = "test.txt";
+	char path[100] ;
 	FILE* fp;
 	errno_t err;
 	int i = 0;
